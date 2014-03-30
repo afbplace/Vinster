@@ -3,7 +3,7 @@
 <%= simple_form_for @post do |f| %>
 	<%= f.input :title, label: 'What is this image about?'%>
 	<%= f.input :description, label: 'Tell me more!', placeholder: 'drunken monkey, racing rhino' %>
-	<% f.input :image %>
+	<%= f.input :image %>
 	<br/> 
 
 	<%= f.button :submit, :class => 'btn btn-warning' %>
