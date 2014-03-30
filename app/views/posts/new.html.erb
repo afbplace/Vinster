@@ -1,0 +1,11 @@
+<div class="genie-box" col-xs-6 col-xs-offset-3> 
+
+<%= simple_form_for @post do |f| %>
+	<%= f.input :title, label: 'What is this image about?'%>
+	<%= f.input :description, label: 'Tell me more!', placeholder: 'drunken monkey, racing rhino' %>
+	<%= f.button :submit, :class => 'btn btn-warning' %>
+
+
+<% end %>
+
+</div>
